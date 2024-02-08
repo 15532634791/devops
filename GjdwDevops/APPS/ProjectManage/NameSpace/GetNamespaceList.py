@@ -7,10 +7,10 @@ from aliyunsdkasapi.AsapiRequest import AsapiRequest
 class NamespaceDetail(object):
 
     def __init__(self):
-        self.accessKeyId = "DNpVFojiUH9I4J34"
-        self.accessKeySecret = "zYNmbTwtZpBMFKPpKdzVn4Ukk3pSeg"
-        self.region = "jibei-1"
-        self.endpoint = "http://internal.asapi.jibei-1.ops.sgmc.sgcc.com.cn/asapi/v3"
+        self.accessKeyId = "D9I4J34"
+        self.accessKeySecret = "pSeg"
+        self.region = "jib1"
+        self.endpoint = "httpasapi/v3"
 
     def run(self, org_id, resource_set_id, namespace):
         client = ASClient(
