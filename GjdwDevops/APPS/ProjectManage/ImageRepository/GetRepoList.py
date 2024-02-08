@@ -13,10 +13,10 @@ dt.strftime('%Y-%m-%d %H:%M:%S')
 
 class RepoList(object):
     def __init__(self):
-        self.accessKeyId = "DNpVFojiUH9I4J34"
-        self.accessKeySecret = "zYNmbTwtZpBMFKPpKdzVn4Ukk3pSeg"
+        self.accessKeyId = "DN4"
+        self.accessKeySecret = "zSeg"
         self.region = "jibei-1"
-        self.endpoint = "http://internal.asapi.jibei-1.ops.sgmc.sgcc.com.cn/asapi/v3"
+        self.endpoint = "httpom.cn/asapi/v3"
 
     def run(self):
         client = ASClient(
