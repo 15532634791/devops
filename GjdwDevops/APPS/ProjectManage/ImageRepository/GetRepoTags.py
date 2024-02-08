@@ -7,10 +7,10 @@ from aliyunsdkasapi.AsapiRequest import AsapiRequest
 
 class RepoTags(object):
     def __init__(self):
-        self.accessKeyId = "DNpVFojiUH9I4J34"
-        self.accessKeySecret = "zYNmbTwtZpBMFKPpKdzVn4Ukk3pSeg"
+        self.accessKeyId = ""
+        self.accessKeySecret = ""
         self.region = "jibei-1"
-        self.endpoint = "http://internal.asapi.jibei-1.ops.sgmc.sgcc.com.cn/asapi/v3"
+        self.endpoint = "http://iom.cn/asapi/v3"
 
     @staticmethod
     def convert_size(size):
