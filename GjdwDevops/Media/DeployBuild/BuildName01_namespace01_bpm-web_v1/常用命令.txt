@@ -1,0 +1,90 @@
+docker run -d --restart=always -p 8080:8080 -p 50000:50000  --name jenkins01  jenkins/jenkins
+
+
+docker run -d -p 8080:8080 -v myjenkins:latest
+
+docker run -d -p 8080:8080 myjenkins:latest /sbin/tini -- /usr/local/bin/jenkins.sh
+
+
+
+docker run  -itd  -p 9980:80 -p 9922:22  --restart always --privileged=true --name gitlab gitlab/gitlab-ce
+
+
+
+
+yum install --downloadonly   yum-utils device-mapper-persistent-data lvm2
+
+
+rpm -ivh *.rpm --force --nodeps
+
+yum install ./*
+
+6228 4800 1077 1615 415
+
+
+while true;do free | awk '/Mem/{printf("%.2f"), $3/$2 * 100}' && sleep 1 && echo -e '';done
+
+
+11732398f99236ef6120c0124575523d14
+
+
+
+自动打开一个页面 自动输入账号密码
+
+
+# 获取内存使用率
+while true;do free | awk '/Mem/{printf("%.2f"), $3/$2 * 100}' && sleep 1 && echo -e '';done
+
+
+
+
+./python3 -m pip install  aliyun-python-sdk-asapi==2.4.7.2   -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.douban.com
+
+
+jenkins构建两种方式：
+
+1 git url
+2 jar包的形式
+
+
+
+
+pip install -r requirements.txt
+
+
+ pip freeze > requirements.txt 是全部模块导出，导出后有路径存在，这是最常用的导出。
+
+
+
+GRANT ALL PRIVILEGES ON *.* TO  '%'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
+
+
+GRANT ALL PRIVILEGES ON *.* TO '%'@'%' IDENTIFIED BY '123456';
+
+
+
+GRANT ALL PRIVILEGES ON devops.* TO '%'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
+
+
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
+
+
+
+
+docker run --name mysql --privileged=true -e MYSQL_ROOT_PASSWORD=123456 -p  3306:3306 -u root --lower-case-table-names=1 -d mysql
+
+
+
+jupyter-notebook --no-browser --allow-root --ip=0.0.0.0 --port 8080 
+
+
+
+http://192.168.78.137:8080/?token=5dfadfbb83b554081c1fc1cd65773a0fa8a727f4e5a7184f
+
+
+
+<el-icon><Mouse /></el-icon>
+
+
+
