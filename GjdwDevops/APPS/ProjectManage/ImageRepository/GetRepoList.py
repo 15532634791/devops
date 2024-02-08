@@ -15,7 +15,7 @@ class RepoList(object):
     def __init__(self):
         self.accessKeyId = "DN4"
         self.accessKeySecret = "zSeg"
-        self.region = "jibei-1"
+        self.region = "ji"
         self.endpoint = "httpom.cn/asapi/v3"
 
     def run(self):
