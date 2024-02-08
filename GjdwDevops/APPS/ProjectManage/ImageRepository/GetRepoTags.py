@@ -9,7 +9,7 @@ class RepoTags(object):
     def __init__(self):
         self.accessKeyId = ""
         self.accessKeySecret = ""
-        self.region = "jibei-1"
+        self.region = "j"
         self.endpoint = "http://iom.cn/asapi/v3"
 
     @staticmethod
